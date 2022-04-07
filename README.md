@@ -1,11 +1,5 @@
 # Vapor for Docker
 
-This setup has been made with Docker 1.12 for Mac.
-You can download Docker For Mac/Windows here
-[Mac](https://download.docker.com/mac/stable/Docker.dmg)
-
-This will remove Docker toolbox and migrate your current containers to Docker Engine if you have any.
-
 The [base image](https://hub.docker.com/r/vapor/vapor/) is build on Ubuntu 20.04 with [Swift](https://github.com/apple/swift) 5.6 and [Vapor toolbox](https://github.com/vapor/toolbox)
 
 ## Simple setup
