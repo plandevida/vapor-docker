@@ -6,7 +6,7 @@ You can download Docker For Mac/Windows here
 
 This will remove Docker toolbox and migrate your current containers to Docker Engine if you have any.
 
-The [base image](https://hub.docker.com/r/vapor/vapor/) is build on Ubuntu 16.04 with [Swift](https://github.com/apple/swift) 3.1 and [Vapor toolbox](https://github.com/vapor/toolbox)
+The [base image](https://hub.docker.com/r/vapor/vapor/) is build on Ubuntu 16.04 with [Swift](https://github.com/apple/swift) 4.0 and [Vapor toolbox](https://github.com/vapor/toolbox)
 
 ## Simple setup
 You can use the base image to get a simple setup with Vapor & Docker up and running.
