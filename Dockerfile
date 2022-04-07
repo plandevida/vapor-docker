@@ -1,10 +1,11 @@
 FROM ubuntu:16.04
 
-LABEL maintainer="zyxep"
+LABEL maintainer="plandevida"
 
 # Install CURL
-RUN apt-get update && \
-    apt-get -y install curl && \
+RUN apt update && \
+    apt -y upgrade && \
+    apt -y install curl clang libicu-dev libcurl4-openssl-dev libpython2.7 && \
     rm -rf /var/lib/apt/lists/*;
 
 # Get Vapor repo including Swift
