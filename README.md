@@ -1,6 +1,6 @@
 # Vapor for Docker
 
-The [base image](https://hub.docker.com/r/vapor/vapor/) is build on Ubuntu 20.04 with [Swift](https://github.com/apple/swift) 5.6 and [Vapor toolbox](https://github.com/vapor/toolbox)
+The [base image](https://hub.docker.com/repository/docker/plandevida/vapor-toolbox) is build on Ubuntu 20.04 with [Swift](https://github.com/apple/swift) 5.6 and [Vapor toolbox](https://github.com/vapor/toolbox)
 
 ## Simple setup
 You can use the base image to get a simple setup with Vapor & Docker up and running.
